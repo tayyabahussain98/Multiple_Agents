@@ -1,20 +1,20 @@
-###  Multi-Agent System with Streamlit
+# Multi-Agent System with Streamlit
 
 This project is a simple multi-agent system built using Streamlit and Google Gemini API.
 It includes different agents for Web Development, Mobile Development, and Marketing, managed by a Manager agent who decides which agent should handle the user's request.
 
 # Features
 
-Multiple agents specialized in different tasks.
-Manager agent that assigns the task to the correct agent.
-Async handling for smooth Streamlit integration.
-Uses Google Gemini API for AI-based completions.
-Simple user interface with Streamlit.
+* Multiple agents specialized in different tasks.
+* Manager agent that assigns the task to the correct agent.
+* Async handling for smooth Streamlit integration.
+* Uses Google Gemini API for AI-based completions.
+* Simple user interface with Streamlit.
 
 # Requirements
 
-Python 3.8+
-Google Gemini API Key
+* Python 3.8+
+* Google Gemini API Key
 
 # Setup Instructions
 1. Create virtual environment (optional but recommended):
@@ -44,10 +44,10 @@ streamlit run app.py
 
 ## How It Works
 
-The app starts with a user input box where you can place your order or request.
-The Manager Agent decides which specialized agent (Web Developer, Mobile Developer, Marketing) will handle the task.
-The chosen agent processes the request and provides the response.
-You will see the manager's instructions, the assigned agent, and the response in the Streamlit interface.
+* The app starts with a user input box where you can place your order or request.
+* The Manager Agent decides which specialized agent (Web Developer, Mobile Developer, Marketing) will handle the task.
+* The chosen agent processes the request and provides the response.
+* You will see the manager's instructions, the assigned agent, and the response in the Streamlit interface.
 
 ## Important Code Highlights
 
